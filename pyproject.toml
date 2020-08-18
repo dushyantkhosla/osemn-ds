@@ -1,8 +1,9 @@
 [tool.poetry]
 name = "osemn-ds"
 version = "0.1.0"
-description = ""
-authors = ["Khosla, Dushyant <Dushyant.Khosla@pmi.com>"]
+description = "Python package filled with helper functions to assist data scientists in their quest across the OSEMN process."
+authors = ["Dushyant Khosla <dushyant.khosla@protonmail.com>"]
+license = "MIT"
 
 [tool.poetry.dependencies]
 python = "^3.8"
