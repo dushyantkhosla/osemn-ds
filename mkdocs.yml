@@ -10,8 +10,8 @@ repo_url: https://github.com/dushyantkhosla/osemn-ds
 copyright: Copyright &copy; 2020 Dushyant Khosla
 
 theme:
-  name: null
-  custom_dir: material
+  name: material
+#  custom_dir: material
   include_search_page: false
   search_index_only: true
   language: en
