@@ -4,6 +4,7 @@ version = "0.1.0"
 description = "Python package filled with helper functions to assist data scientists in their quest across the OSEMN process."
 authors = ["Dushyant Khosla <dushyant.khosla@protonmail.com>"]
 license = "MIT"
+repository = "https://www.github.com/dushyantkhosla/osemn-ds"
 
 [tool.poetry.dependencies]
 python = "^3.8"
