@@ -1,15 +1,50 @@
 site_name: OSEMN-DS
+site_url: https://dushyantkhosla.github.io/osemn-ds/
+site_author: Dushyant Khosla
+site_description: >-
+  Python package with tools and utilities to help data scientists at every step along their journed in the OSEMN process.
+
+repo_name: dushyantkhosla/osemn-ds
+repo_url: https://github.com/dushyantkhosla/osemn-ds
+
+copyright: Copyright &copy; 2020 Dushyant Khosla
+
 theme:
-  name: material
+  name: null
+  custom_dir: material
+  include_search_page: false
+  search_index_only: true
+  language: en
+  features:
+    - tabs
   palette:
     primary: deep orange
-    scheme: preference
+    scheme: default
   font:
     text: Roboto
     code: Roboto Mono
 
 plugins:
   - search
+  - minify:
+      minify_html: true
+
+nav:
+  - Home: index.md
+  - Getting started:
+    - Obtain: obtain.md
+    - Scrub: scrub.md
+    - Explore: explore.md
+    - Model: model.md
+    - Interpret: interpret.md
+#    - Installation: getting-started.md
+#    - Creating your site: creating-your-site.md
+#    - Publishing your site: publishing-your-site.md
+#    - Customization: customization.md
+#    - Troubleshooting: troubleshooting.md
+#    - Data privacy: data-privacy.md
+#    - Insiders: insiders.md
+#    - License: license.md
 
 extra:
   social:
@@ -24,3 +59,38 @@ extra:
     - icon: fontawesome/brands/instagram
       link: https://instagram.com/dushyantkhosla
 
+# Extensions
+markdown_extensions:
+  - markdown.extensions.admonition
+  - markdown.extensions.attr_list
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - markdown.extensions.toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      check_paths: true
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
