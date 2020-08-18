@@ -1,1 +1,26 @@
 site_name: My Docs
+theme:
+  name: material
+  palette:
+    primary: deep orange
+    scheme: preference
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+plugins:
+  - search
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/dushyantkhosla
+    - icon: fontawesome/brands/docker
+      link: https://hub.docker.com/u/dushyantkhosla
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:<dushyantkhosla320@gmail.com>
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/dushyant-khosla/
+    - icon: fontawesome/brands/instagram
+      link: https://instagram.com/dushyantkhosla
+
