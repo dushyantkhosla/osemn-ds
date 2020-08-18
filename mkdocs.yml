@@ -26,8 +26,8 @@ theme:
 
 plugins:
   - search
-  - minify:
-      minify_html: true
+#  - minify:
+#      minify_html: true
 
 nav:
   - Home: index.md
